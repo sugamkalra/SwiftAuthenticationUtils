@@ -15,6 +15,7 @@
 		156572931C1FE976004EC23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156572911C1FE976004EC23A /* LaunchScreen.storyboard */; };
 		1565729E1C1FE976004EC23A /* SwiftyAuthenticationUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565729D1C1FE976004EC23A /* SwiftyAuthenticationUtilsTests.swift */; };
 		156572A91C1FE976004EC23A /* SwiftyAuthenticationUtilsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572A81C1FE976004EC23A /* SwiftyAuthenticationUtilsUITests.swift */; };
+		156572B81C1FE98C004EC23A /* AuthenticationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572B71C1FE98C004EC23A /* AuthenticationUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		156572A41C1FE976004EC23A /* SwiftyAuthenticationUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyAuthenticationUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		156572A81C1FE976004EC23A /* SwiftyAuthenticationUtilsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAuthenticationUtilsUITests.swift; sourceTree = "<group>"; };
 		156572AA1C1FE976004EC23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156572B71C1FE98C004EC23A /* AuthenticationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		156572841C1FE976004EC23A /* SwiftyAuthenticationUtils */ = {
 			isa = PBXGroup;
 			children = (
+				156572B61C1FE97B004EC23A /* AuthenticationUtils */,
 				156572851C1FE976004EC23A /* AppDelegate.swift */,
 				156572871C1FE976004EC23A /* ViewController.swift */,
 				156572891C1FE976004EC23A /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				156572AA1C1FE976004EC23A /* Info.plist */,
 			);
 			path = SwiftyAuthenticationUtilsUITests;
+			sourceTree = "<group>";
+		};
+		156572B61C1FE97B004EC23A /* AuthenticationUtils */ = {
+			isa = PBXGroup;
+			children = (
+				156572B71C1FE98C004EC23A /* AuthenticationUtil.swift */,
+			);
+			name = AuthenticationUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1565728E1C1FE976004EC23A /* SwiftyAuthenticationUtils.xcdatamodeld in Sources */,
+				156572B81C1FE98C004EC23A /* AuthenticationUtil.swift in Sources */,
 				156572881C1FE976004EC23A /* ViewController.swift in Sources */,
 				156572861C1FE976004EC23A /* AppDelegate.swift in Sources */,
 			);

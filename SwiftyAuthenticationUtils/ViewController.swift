@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // This is how to retrieve Grower Id from local DB
+        let strGrowerId = AuthenticationUtil.sharedInstance.retrieveGrowerId()!
+        
+        print(strGrowerId)
     }
 
     override func didReceiveMemoryWarning() {
